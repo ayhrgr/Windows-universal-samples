@@ -40,7 +40,7 @@ namespace SDKTemplate
         private MainPage rootPage = MainPage.Current;
 
         // Language for OCR.
-        private Language ocrLanguage = new Language("en");
+        private Language ocrLanguage = new Language("ja");
 
         // Recognized words overlay boxes.
         private List<WordOverlay> wordBoxes = new List<WordOverlay>();

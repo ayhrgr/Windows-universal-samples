@@ -188,7 +188,7 @@ namespace SDKTemplate
             if (ocrEngine != null)
             {
                 // Recognize text from image.
-                var ocrResult = await ocrEngine.RecognizeAsync(bitmap);
+                OcrResult ocrResult = await ocrEngine.RecognizeAsync(bitmap);
 
                 // Display recognized text.
                 ExtractedTextBox.Text = ocrResult.Text;
